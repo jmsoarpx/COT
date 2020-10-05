@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-photo {
+  padding: 0 !important;
+}
+
+@media (min-width: 600px) {
+  .MuiToolbar-regular {
+    min-height: 54px;
+  }
+}
+
+@media (min-width: 600px) {
+  .makeStyles-toolbar-10 {
+    min-height: 48px !important;
+  }
+}
+
+.caption {
+  display: inline-flex;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #565656;
+}
+
+.sl-menu-li:hover,
+.sl-menu-li:focus {
+  color: #00020e;
+  background-color: #e9ecef;
+  border-left: 3px solid #e41b1b;
+}
+
+.sl-menu-li {
+  color: #fff;
+  display: block;
+  font-weight: bold;
+}
+
+.form-size {
+  width: 100%;
+}
+
+.card {
+  min-height: 100px;
+  color: #fff !important;
+}
+.card-green {
+  background-color: #66b92e !important;
+}
+.card-yellow {
+  background-color: #da932c !important;
+}
+.card-blue {
+  background-color: #2298f1 !important;
+}
+.card-red {
+  background-color: #d65b4a !important;
+}
+.card-icon {
+  font-size: 10;
+}

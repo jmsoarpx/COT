@@ -1,0 +1,11 @@
+---
+applications:
+  - instances: 1
+    timeout: 180
+    name: Central-of_Tools
+    command: npm start
+    buildpack: sdk-for-nodejs
+    memory: 256MB
+    random-route: false
+    domain: mybluemix.net
+    host: Central-of_Tools-prod

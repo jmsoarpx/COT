@@ -1,0 +1,51 @@
+{
+    "agencia": {
+        "software": [
+            "TFC - Mensagem de Erro",
+            "TFC - Lentidão",
+            "TFC - Indisponível",
+            "TFC - Intermitente",
+            "CY - Mensagem de Erro",
+            "CY - Lentidão",
+            "CY - Indisponível",
+            "CY - Intermitente",
+            "Windows - Mensagem de Erro",
+            "Windows - Lentidão",
+            "Windows - Indisponível",
+            "Windows - Intermitente"            
+        ],
+        "hardware": [
+            "Terminal de Video - Indisponível",
+            "Terminal de Caixa - Indisponível"
+        ],
+        "periferico": [
+            "Terminal de Video - Mouse",
+            "Terminal de Video - Teclado",
+            "Terminal de Video - PinPad",
+            "Terminal de Video - Biometria",
+            "Terminal de Video - Scanner",
+            "Terminal de Caixa - Mouse",
+            "Terminal de Caixa - Teclado",
+            "Terminal de Caixa - PinPad",
+            "Terminal de Caixa - Biometria",
+            "Terminal de Caixa - Autenticadora"
+        ],
+        "impressora": [
+            "Impressora - Perfil de Digitalização",
+            "Impressora - Não Imprime",
+            "Impressora - Atolamento",
+            "Impressora - Falhando Impressão",
+            "Impressora - Toner"
+        ],
+        "gerenciador de filas": [
+            "SGA - Indisponível",
+            "PROX - Indisponível"
+        ],
+        "tesoureiro": [
+            "Tesoureiro - Não Liga",
+            "Tesoureiro - Travado em Tela Azul"
+        ]
+    },
+    "regional": [],
+    "corporativo": []
+}
